@@ -24,11 +24,11 @@ On domready, you can use it like the following:
 
 <pre>
 
-	// load after default delay AFTER onload event fires
-	$(window).prefetch('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.19/jquery-ui.min.js');
+// load after default delay AFTER onload event fires
+$(window).prefetch('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.19/jquery-ui.min.js');
 
-	// load after 1s delay AFTER onload event fires
-	$(window).prefetch('http://placehold.it/400x200', 1000);
+// load after 1s delay AFTER onload event fires
+$(window).prefetch('http://placehold.it/400x200', 1000);
 
 </pre>
 
@@ -40,7 +40,7 @@ To see the prefetch plugin in action:
  - Open your browser's developer tools
  - Clear your browser cache
  - Select the network tab to verify prefetched components
- - Load/refresh this [demo page](http://jayhung.github.com/prefetch/prefetch-demo.html)
+ - Load/refresh this [DEMO PAGE](http://jayhung.github.com/prefetch/)
  - See the timing of when each file loads in the waterfall timeline
 
 Feel free to try it out yourself with varying delays and multiple files, including duplicates.
