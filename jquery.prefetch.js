@@ -1,6 +1,6 @@
 /**
  * Prefetch logic for priming browser cache for subsequent page components (is "priming" even a word?)
- * https://gist.github.com/4357524
+ * http://jayhung.github.com/prefetch
  *
  * Copyright (c) 2012 Jay Hung
  * http://webmocha.com | http://jayhung.com
