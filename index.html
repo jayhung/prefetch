@@ -12,6 +12,7 @@
 
     <style>
       sup { position:relative; top:-0.5em; font-size:0.75em;}
+      .btn { display:inline-block; padding:10px 50px 10px 10px; color:#fff; background:url('images/blacktocat.png') #0090ff no-repeat 95% 50%; font-weight:700; box-shadow:0 0 10px rgba(0,0,0,.5); border-radius:2px;}
     </style>
     <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="javascripts/jquery.prefetch.js"></script>
@@ -46,10 +47,22 @@
           <li>Refresh this page</li>
         </ol>
 
+        <p>Observe a network waterfall chart similar to the following:</p>
+
+        <a href="images/prefetch-waterfall.png"><img src="images/prefetch-waterfall.png" width="200" alt="Chart: prefetch waterfall" /></a>
+
         <script>
           $(window).prefetch('http://wm.wcdn.in/ext/prezos/custom-events-and-prefetch/jquery-ui.min.js');
           $(window).prefetch('http://wm.wcdn.in/img/ui/webmocha_logo.png', 4000);
         </script>
+
+
+        <h3>Get the Plugin</h3>
+
+        <p><a class="btn" href="https://github.com/jayhung/prefetch">Download the code from GitHub</a></p>
+
+        <p>Prefetch times are configurable, and can be individually set for each prefetched item.</p>
+        <p>Duplicates are handled automatically (good for common include files that are used frequently).</p>
 
       </section>
     </div>
