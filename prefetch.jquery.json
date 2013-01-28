@@ -5,11 +5,11 @@
   "keywords": [
     "prefetch",
     "performance",
-    "web performance",
-    "page load",
+    "web-performance",
+    "page-load",
     "speed",
-    "fast pages",
-    "cache priming"
+    "fast-pages",
+    "cache-priming"
   ],
   "version": "1.0.2",
   "author": {
