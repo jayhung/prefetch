@@ -1,0 +1,45 @@
+{
+  "name": "prefetch",
+  "title": "jQuery Prefetch",
+  "description": "A jQuery plugin to make it easier to prefetch page assets for priming the browser cache. Speeds up the page load times of subsequent page requests.",
+  "keywords": [
+    "prefetch",
+    "performance",
+    "web performance",
+    "page load",
+    "speed",
+    "fast pages",
+    "cache priming"
+  ],
+  "version": "1.0.2",
+  "author": {
+    "name": "WebMocha Espresso Team",
+    "url": "http://webmocha.com"
+  },
+  "maintainers": [
+    {
+      "name": "Jay Hung",
+      "email": "jay@jayhung.com",
+      "url": "http://jayhung.com"
+    },
+    {
+      "name": "WebMocha",
+      "email": "info@webmocha.com",
+      "url": "http://webmocha.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": "https://github.com/jayhung/prefetch/issues",
+  "homepage": "https://github.com/jayhung/prefetch",
+  "docs": "https://github.com/jayhung/prefetch",
+  "demo": "http://jayhung.github.com/prefetch/",
+  "download": "https://github.com/jayhung/prefetch",
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}
